@@ -54,6 +54,9 @@ const App = () => {
       company: '',
       message: ''
     });
+    
+    // Close mobile menu if open
+    setIsMenuOpen(false);
   };
 
   const closePopup = () => {
